@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var spawn = require( '../lib/util/spawn' );
+
+var argv = ['gettext'].concat(process.argv.slice(2));
+spawn('edp', argv);
