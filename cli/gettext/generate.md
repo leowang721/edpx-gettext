@@ -9,6 +9,7 @@
 ### Arguments
 
     -o 输出为文件，不指定则打印在 console 中
+    --json 是否同时输出一个同名的json文件
     --keyword=[keyword] gettext标记的关键词，默认为 _
     --info=[info] 描述，当前项目的描述
 
