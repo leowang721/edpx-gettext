@@ -4,7 +4,7 @@
  */
 
 exports.cli = {
-    description: '针对着当前项目内的源代码，生成 .po 文件',
+    description: 'see: egettext generate --help',
     options: ['force', 'keyword:', 'info:', 'o'],
     main: function (args, opts) {
         require('../../lib/gettext/generate').process(args, opts);
