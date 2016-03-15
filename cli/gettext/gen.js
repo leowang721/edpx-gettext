@@ -5,7 +5,7 @@
 
 exports.cli = {
     description: 'see: egettext generate --help',
-    options: ['keyword:', 'info:', 'o', 'json'],
+    options: ['keyword:', 'info:', 'o', 'json', 'lang:'],
     main: function (args, opts) {
         require('../../lib/gettext/generate').process(args, opts);
     }
