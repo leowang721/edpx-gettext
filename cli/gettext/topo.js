@@ -5,7 +5,7 @@
 
 exports.cli = {
     description: '将一个 .json 文件 转换成 .po',
-    options: ['keyword:', 'info:', 'o', 'json'],
+    options: ['keyword:', 'info:', 'o', 'json', 'amd'],
     main: function (args, opts) {
         require('../../lib/gettext/transform/topo').process(args, opts);
     }
